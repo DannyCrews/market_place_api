@@ -30,6 +30,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #
 gem "devise"
 
+gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
+gem 'compass-rails', '~> 2.0.2'
+gem 'furatto'
+gem 'font-awesome-rails'
+gem 'simple_form'
+
 group :development do
   gem 'sqlite3'
   # Access an IRB console on exception pages or by using <%= console %> in views
